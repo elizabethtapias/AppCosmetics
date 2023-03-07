@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="">
+
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#BA55D3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarMenu">
+
+        <ImageButton
+            android:src="@drawable/HOME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHomen" />
+
+        <TextView
+            android:text="PORTFOLIO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150px"
+            android:id="@+id/textServices" />
+    </Toolbar>
+    <ImageView
+        android:src="@drawable/makeup"
+        android:layout_width="389.5dp"
+        android:layout_height="192.0dp"
+        android:id="@+id/image"
+        android:layout_marginTop="90px"
+        
+        />
+
+    
+
+
+</LinearLayout>

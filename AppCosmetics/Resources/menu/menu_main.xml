@@ -1,0 +1,19 @@
+<menu xmlns:android ="http://schemas.android.com/apk/res/android">	
+
+	<item
+		android:id="@+id/services"
+		android:title="Services"/>
+
+	<item
+		android:id="@+id/Portfolio"
+		android:title="Portfolio"/>
+
+	<item
+		android:id="@+id/Promocions"
+		android:title="Promocions"/>
+
+	<item
+		android:id="@+id/Contact"
+		android:title="Contact"/>
+
+</menu>
